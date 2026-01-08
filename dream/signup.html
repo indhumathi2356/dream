@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Responsive Login and Signup Form </title>
+        <link rel="stylesheet" href="sign.css">
+        <script src="sign.js"></script>             
+    </head>
+    <body>
+      <div class="header">
+        <div class="nav">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9zVlvIhhXRjp-OCMfZRpdHXPZxByl9sbpA&s" alt="">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="home.html">Home</a>
+                <div class="dropdown">
+                  <button class="dropbtn" onclick="myFunction()"><a href="collect.html">Collection</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                      <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"/>
+                    </svg></button>
+                  <div class="dropdown-content" id="myDropdown">
+                      <a href="mens.html">men</a>
+                  </div>
+              </div><br><br>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;open</span>
+        </div>
+    </div>
+       <div class="container">
+        <input type="checkbox" id="check">
+        <div class="login form">
+          <h1>Login</h1>
+          <form action="#">
+            <input type="text" placeholder="Enter your email">
+            <input type="text" placeholder="Enter your password">
+            <a href="forgot.html">Forgot password?</a>
+            <input type="button" class="button" value="login">
+          </form>
+          <div class="signup">
+            <span class="signup">Don't have an account?<label for="check">Signup</label></span>
+          </div>
+        </div>
+        <div class="registration form">
+          <h1>Signup</h1>
+          <form action="#">
+            <input type="text" placeholder="Enter your email">
+            <input type="text" placeholder="Enter your password">
+            <input type="text" placeholder="confirm your password">
+            <input type="button" class="button" value="register">
+          </form>
+          <div class="signup">
+            <span class="signup">Already have an account?<label for="check">Login</label></span>
+          </div>
+        </div>
+       </div>
+    </body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dream.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="dreams.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9zVlvIhhXRjp-OCMfZRpdHXPZxByl9sbpA&s" alt="">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="home.html">Home</a>
+                <a href="collect.html">Product</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;open</span>
+             <i class="fas fa-sign-in"></i>
+             <div class="nav-section nav-center">
+                <form action="#" class="search-form">
+                    <input type="search" class="search-input" required>
+                    <button class="nav-button search-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg>
+                    </button>
+                </form>
+             </div>
+        </div>
+        <div class="cart_btn" id="btn_container">
+            <div class="static shop">
+                <button class="cart_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                      <span>0</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="main1">
+        <div class="mainText">
+            <h1>The Dream</h1>
+            <p>Fashion Trends normal product</p>
+            <button>Explore</button>
+        </div>
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT5uUM1CMFLHFSVxVDCymf1UQDq93YMoDcIJINIm_ejDsvcVtsZc5mr8MeGtF_e7NHttxIj3RKpGjlGfljvpIkjhTZD8zN506oeCFzqF1Csi05dP4RpTTOU" alt="">
+    </div>
+    <div class="content">
+        <div class="main">
+            <h5>See Our Product</h5>
+            <h1>Latest Product</h1>
+            <p>The are many variations of products</p>
+        </div>
+        <div class="wrapper">
+        <div class="product_card cart_card">
+            <div class="card_image" data-title="misha">
+                <a href="misha.html"><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSqsVEU7TdPkK9PG_Cq8rbvEvmo5m0X2sGpgHYQDGRm18dC7RSs-7VkIuvbw7reU5Ofsebv2fr9qy0EqY8ZMwBquIEjuj_q07J9fWdo2JZJHEo_v97H3yEt" alt=""></a>
+                <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                <h2>Misha-Banarasi Kurti</h2>
+                <p>banarasi silk kurti</p>
+                <p class="price card_price">₹699.00-₹799.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+            </div>
+            <div class="product_card cart_card">
+            <div class="card_image" data-title="raya">
+                <a href="raya.html"><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTVF4E3gz1ZTKod1esqSF-MPA6bDIRbSXpkgcQWa3KaJx_eNG1SIWsGAdujGfobUI3GyWV0e-J9KqloXZcAYVrg5GMdNsVSlEf7u1MDUXNp3RjpHt07Gnb9" alt=""></a>
+                <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                <h2>Raya-Banarasi Kurti</h2>
+                <p>banarasi silk kurti</p>
+                <p class="price card_price">₹699.00-₹799.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+        </div>
+        <div class="product_card cart_card">
+        <div class="card_image" data-title="adya">
+            <a href="adya.html"><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSU5s6Uw60LRKhIBf6ZaRqXDjMyZVh0F4KSaNJvQQJw_X36z6pv616adsFy5Atny037UvwTPTcDEvgGXXXD4cEnBZ6MpmgBTW6-h0sf8QGAqMNcHSCSay4X" alt=""></a>
+            <div class="topleft"><button>sales</button></div>
+            </div><hr>
+            <div class="card_content">
+            <h3 class="card_title">Adya-Kurti</h3>
+            <p>Chanderi Silk</p>
+            <p class="price card_price">₹599.00</p>
+            <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+        </div>
+        <div class="product_card cart_card">
+        <div class="card_image" data-title="Kids">
+            <a href="kids.html"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQnMkespIhxdPeIRlFG_l5u5_GEbfATu2tTIHdQqeW6YbNwzebcb7eLZPEOFrJtJhJ8OVoBhwcglh14Y_-R1yFjGfjfXPTfw9vivcelu-2PtjCkZsCMSJBxDg&usqp=CAE" alt=""></a>
+            <div class="topleft"><button>sales</button></div>
+            </div><hr>
+            <div class="card_content">
+            <h3 class="card_title">Kids Plan T-Shirt <br>Combo</h3>
+            <p>Kids wear,Boys fashion,Combo,<br>Girls Fashion,Girl Combo,New Arrivals</p>
+            <p class="price card_price">₹349.00</p>
+            <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+        </div>
+    </div>
+    <div class="product_card cart_card">
+        <div class="card_image" data-title="girl">
+        <a href="girl.html"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTYWo7e54cLVV_wLe6zTtM-pECBjLtrw7HlIY0s8B3YzwNShmBTXH15a0uROVv9hb1UKw-ULQSjRTt9cM51GvViB2YYzfs8BI5bgcDcCcpz&usqp=CAE" alt=""></a>
+        <div class="topleft"><button>sales</button></div>
+        </div><hr>
+        <div class="card_content">
+        <h3 class="card_title">Girl Boss Girl Baby<br> T-Shirt</h3>
+        <p>Kids Wear,Family Collections,<br>Family Girl Fashion,Girl Fashion</p>
+        <p class="price card_price">₹349.00</p>
+        <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+        </div>
+    </div>
+    <div class="product_card cart_card">
+        <div class="card_image" data-title="captain">
+        <a href="captain.html"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQyNBzFjQAzWDJgUU-ATrNIgTPwbg4vyrFa8A2gHzoXaXHCe2y9jU7uBZLVjTVVGbLICYiISc-lUsStcgHbnlIpFAgSG1OhjtIEnfB3blU6&usqp=CAE" alt=""></a>
+        <div class="topleft"><button>sales</button></div>
+        </div><hr>
+        <div class="card_content">
+        <h3 class="card_title">Captain America Kids<br>T-Shirt</h3>
+        <p>Kids Wear, Boys Fashion, <br>Custom fashion</p>
+        <p class="price card_price">₹449.00</p>
+        <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+    </div>
+    </div>
+    </div>
+    </div><hr>
+    <div class="cart_sidebar" id="cart_sidebar">
+        <div class="sidebar_close" id="sidebar_close">&times;</div>
+           <div class="cart_menu">
+               <h3>my cart</h3>
+                <div class="cart_items"></div>
+           </div>
+            <div class="sidebar_footer">
+                <div class="total_amount">
+                    <h5>total</h5>
+                    <div class="cart_total">₹0.00</div>
+                  </div>
+                   <button class="checkout_btn">checkout</button>
+            </div>
+        </div>
+    <div class="section">
+        <div class="part">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9zVlvIhhXRjp-OCMfZRpdHXPZxByl9sbpA&" alt="">
+        </div>
+        <div class="part">
+            <h3>Quick Links</h3>
+            <a href="home.html">Home</a><br>
+            <a href="collect.html">Product</a><br>
+            <a href="about.html">About</a><br>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="part">
+            <h3>Contact</h3>
+            <p>Address:3f/2 arumugam street,<br>chennai, chennai-600 020</p>
+            <p>Phone:7010863322</p>
+            <p>Email:info@dream.com</p>
+        </div>
+        <div class="part">
+            <a href="privacy.html"><p>Privacy Policy</p></a>
+            <a href="refund.html"><p>Refund Policy</p></a>
+            <a href="shipping.html"><p>Shipping Policy</p></a>
+            <a href="term.html"><p>Terms Of Service</p></a>
+            <a href="contact.html"><p>Contact Us</p></a>
+            <a href="order.html"><p>order tracking</p></a>
+            <a href="payment.html"><p>payment option</p></a>
+            <a href="return.html"><p>Return & Exchanges</p></a>
+    </div>
+    </div><hr>
+    <div class="footer">
+        <div class="content1">&#169 2025 All right reserved The dream.com</div>
+    </div><hr>
+</body>
+</html>

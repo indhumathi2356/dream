@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="col.css">
+    <script src="collect.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9zVlvIhhXRjp-OCMfZRpdHXPZxByl9sbpA&s" alt="">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="home.html">Home</a>
+                <a href="collect.html">Product</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;open</span>
+            <i class="fas fa-sign-in"></i>
+        </div>
+        <div class="cart_btn" id="btn_container">
+            <div class="static shop">
+                <button class="cart_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                      <span>0</span>
+                </button>
+            </div>
+        </div>
+    </div>
+        <div class="wrapper">
+            <div class="product_card cart_card">
+            <div class="card_image">
+                <a href=raya.html><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTVF4E3gz1ZTKod1esqSF-MPA6bDIRbSXpkgcQWa3KaJx_eNG1SIWsGAdujGfobUI3GyWV0e-J9KqloXZcAYVrg5GMdNsVSlEf7u1MDUXNp3RjpHt07Gnb9" alt=""></a>
+                <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                <h3 class="card_title">Raya-Kurti</h3>
+                <p>banarasi silk kurti</p>
+                <p class="price card_price">₹699.00-₹799.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+         </div>   
+            <div class="product_card cart_card">
+                <div class="card_image">
+                <a href="misha.html"><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSqsVEU7TdPkK9PG_Cq8rbvEvmo5m0X2sGpgHYQDGRm18dC7RSs-7VkIuvbw7reU5Ofsebv2fr9qy0EqY8ZMwBquIEjuj_q07J9fWdo2JZJHEo_v97H3yEt" alt=""></a>
+                <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                <h3 class="card_title">Misha-Banarasi Silk kurti</h3>
+                <p>Attire is made of banarasi silk</p>
+                <p class="price card_price">₹699.00-₹749.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+         </div>   
+            <div class="product_card cart_card">
+                <div class="card_image">
+                <a href="elisa.html"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTDCXX3R3OTJnSN3yzQH4F7_nM5kGiAyYqZrTOR_VkViJpvUcVbKmbZejYVAUSn2pokneta6WJjCHOyohLsV4zacCkx4sOph6uQ5rqS3H3zYIeCryaEnx0YrQ" alt=""></a>
+                <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                <h3 class="card_title">Elisa-Kurti</h3><br>
+                <p class="price card_price">₹699.00-₹809.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+        </div>
+        <div class="product_card cart_card">
+            <div class="card_image">
+                <a href="ria.html"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSNVI23V5EV1voeyU1IaJ7Qn9TDK1rAzuIe10VbXKWVsajbPqfcaxcqH47pC4j6mC_emKfZiHytV_9GtN_331LWJY0VkAfdVXYcLy-5FR05" alt=""></a>
+                <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                <h3 class="card_title">Ria-A Line Kurti</h3>
+                <p>Chanderi Silk</p>
+                <p class="price card_price">₹999.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>   
+            </div>
+            </div>
+            <div class="product_card cart_card">
+                <div class="card_image">
+                <a href="keya.html"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRCZipPwVdomtwflIWSVeNHWkZrxbhxJLkQMl84vUCv1hAcxxRzIXdYSHW44uIRh2vhGnR9CNX30_PdZOsPh2kVVYIs4Na-dlwk2cTZ_xymLxefUXxQtjhw" alt=""></a>
+                <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                <h3 class="card_title">Keya-Side Slit Kurti</h3>
+                <p>Organza side slit kurti</p>
+                <p class="price card_price">₹689.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+            </div>
+            <div class="product_card cart_card">
+                <div class="card_image">
+                <a href="adya.html"><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSU5s6Uw60LRKhIBf6ZaRqXDjMyZVh0F4KSaNJvQQJw_X36z6pv616adsFy5Atny037UvwTPTcDEvgGXXXD4cEnBZ6MpmgBTW6-h0sf8QGAqMNcHSCSay4X" alt=""></a>
+                <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                <h3 class="card_title">Adya-Kurti</h3>
+                <p>Chanderi Silk</p>
+                <p class="price card_price">₹599.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+                </div>
+            </div>
+            <div class="product_card cart_card">
+                <div class="card_image">
+                <a href="kids.html"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQnMkespIhxdPeIRlFG_l5u5_GEbfATu2tTIHdQqeW6YbNwzebcb7eLZPEOFrJtJhJ8OVoBhwcglh14Y_-R1yFjGfjfXPTfw9vivcelu-2PtjCkZsCMSJBxDg&usqp=CAE" alt=""></a>
+                    <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                    <h3 class="card_title">Kids Plans T-Shirt<br>Combo</h3>
+                    <p class="price card_price">₹349.00</p>
+                    <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+                </div>
+            </div>
+            <div class="product_card cart_card">
+                <div class="card_image">
+                <a href="white.html"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQPVQJ-zEuTPcxk4lbbLj_yWjE9wJKSY70bKqY5caDvxdrX6qrUB_1TRaEmZsH0sgmIxcWCaodvIQkVcmCWv_o2k7TilN7q&usqp=CAE" alt=""></a>
+                    <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                <h3 class="card_title">Kids Plans T-Shirt<br>White Color</h3>
+                <p class="price card_price">₹199.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+                </div>
+            </div>
+            <div class="product_card cart_card">
+                <div class="card_image">
+                <a href="girl.html"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTYWo7e54cLVV_wLe6zTtM-pECBjLtrw7HlIY0s8B3YzwNShmBTXH15a0uROVv9hb1UKw-ULQSjRTt9cM51GvViB2YYzfs8BI5bgcDcCcpz&usqp=CAE" alt=""></a>
+                    <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                    <h3 class="card_title">Girl Boss Girl Baby<br>combo</h3>
+                    <p class="price card_price">₹349.00</p>
+                    <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+                </div>
+            </div>
+            <div class="product_card cart_card">
+                <div class="card_image">
+                <a href="dad.html"><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR94ff_dBLCeFXOIumqI1NhPqIEVO7jczVRHMGHBNclWj9YREzUzmeu2skpzL44ygQlD1vixhDjjwyO6dppWSZK7Swf11tt-w&usqp=CAE" alt=""></a>
+                    <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                    <h3 class="card_title">Dad Mini Me Kids<br>T-Shirt</h3>
+                    <p class="price card_price">₹349.00</p>
+                    <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+                </div>
+            </div>
+            <div class="product_card cart_card">
+                <div class="card_image">
+                     <a href="mom.html"><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRBM7tkX87NAS6d6LVevyfH9Zdq5QjFvobz62WR3EMRkCCCvmEqscSFiqJDZhEmBhMgRRvhVfTHJcNK9X1cQDKaD4Nmjvm8MJwDLkM9reNL9Lwcje78b4vPHw" alt=""></a>
+                    <div class="topleft"><button>sales</button></div>
+                </div><hr>
+                <div class="card_content">
+                    <h3 class="card_title">Mom Mini Me Kids<br>T-Shirt</h3>
+                    <p class="price card_price">₹349.00</p>
+                    <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+                </div>
+            </div>
+            <div class="product_card cart_card">
+                <div class="card_image">
+                    <a href="captain.html"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQyNBzFjQAzWDJgUU-ATrNIgTPwbg4vyrFa8A2gHzoXaXHCe2y9jU7uBZLVjTVVGbLICYiISc-lUsStcgHbnlIpFAgSG1OhjtIEnfB3blU6&usqp=CAE" alt=""></a>
+                    <div class="topleft"><button>sales</button>
+                    </div>
+                </div><hr>
+                <div class="card_content">
+                    <h3 class="card_title">Captain America Kids<br>T-Shirt</h3>
+                    <p class="price card_price">₹449.00</p>
+                    <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+                </div>
+            </div>
+    </div><hr>
+    <div class="cart_sidebar" id="cart_sidebar">
+        <div class="sidebar_close" id="sidebar_close">&times;</div>
+           <div class="cart_menu">
+               <h3>my cart</h3>
+                <div class="cart_items"></div>
+           </div>
+            <div class="sidebar_footer">
+                <div class="total_amount">
+                    <h5>total</h5>
+                    <div class="cart_total">₹0.00</div>
+                  </div>
+                   <button class="checkout_btn">checkout</button>
+            </div>
+        </div>
+    <div class="section">
+        <div class="part">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9zVlvIhhXRjp-OCMfZRpdHXPZxByl9sbpA&s" alt="">
+        </div>
+        <div class="part">
+            <h3>Quick Links</h3>
+            <ul>
+            <a href="home.html">Home</a><br>
+            <a href="collect.html">Product</a><br>
+            <a href="about.html">About</a><br>
+            <a href="contact.html">Contact</a><br>
+            </ul>
+        </div>
+        <div class="part">
+            <h3>Contact</h3>
+            <p>Address:3f/2 arumugam street,<br>chennai, chennai-600 020</p>
+            <p>Phone:7010863322</p>
+            <p>Email:info@dream.com</p>
+        </div>
+        <div class="part">
+            <a href="privacy.html"><p>Privacy Policy</p></a>
+                <a href="refund.html"><p>Refund Policy</p></a>
+                <a href="shipping.html"><p>Shipping Policy</p></a>
+                <a href="term.html"><p>Terms Of Service</p></a>
+                <a href="contact.html"><p>Contact Us</p></a>
+                <a href="order.html">order tracking</a><br>
+                <a href="payment.html">payment options</a><br>
+                <a href="return.html">Return & Exchanges</a>
+        </div> 
+    </div><hr>
+    <div class="footer">
+        <div class="content">&#169 2025 All right reserved The dream.com</div>
+    </div><hr>
+</body>
+</html>

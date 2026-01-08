@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shopping.css">
+    <script src="shopping.js"></script>
+</head>
+<body>
+    <div class="cart_btn" id="btn_container">
+        <div class="static shop">
+            <button class="cart_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/></svg>
+                <span>0</span></button>
+        </div>
+    </div>
+    <h1>add to cart</h1>
+    <div class="wrapper">
+        <div class="product_card cart_card">
+            <div class="card_image">
+                <img src="https://thedyem.com/wp-content/uploads/2024/07/LD-1000x1100px-07-430x473.jpg" alt="">
+            </div>
+            <div class="card_content">
+                <h3 class="card_title">Dad’s Mini Me Kids T-Shirt</h3>
+                <p class="price card_price">&#8377;349.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+        </div>
+        <div class="product_card cart_card">
+            <div class="card_image">
+                <img src="https://miro.medium.com/v2/resize:fit:800/1*vValpagWnzHNXOWLEvq_fQ.jpeg" alt="">
+            </div>
+            <div class="card_content">
+                <h3 class="card_title">Adya-Kurti</h3>
+                <p class="price card_price">&#8377;599.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+        </div>
+        <div class="product_card cart_card">
+            <div class="card_image">
+                <img src="https://images.pexels.com/photos/8749177/pexels-photo-8749177.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+            </div>
+            <div class="card_content">
+                <h3 class="card_title">elisa kurti</h3>
+                <p class="price card_price">&#8377;699.00</p>
+                <button class="addto_cartbtn" id="btn_shop">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="cart_sidebar" id="cart_sidebar">
+        <div class="sidebar_close" id="sidebar_close">&times;</div>
+        <div class="cart_menu">
+            <h3>my cart</h3>
+            <div class="cart_items"></div>
+        </div>
+        <div class="sidebar_footer">
+            <div class="total_amount">
+                <h5>total</h5>
+                <div class="cart_total">&#8377;0.00</div>
+            </div>
+            <button class="checkout_btn">checkout</button>
+        </div>
+    </div>
+</body>
+</html>
