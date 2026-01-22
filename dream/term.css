@@ -1,0 +1,135 @@
+*
+{
+margin:0;
+padding:0;
+font-family: 'fantasy';
+}
+.nav
+{
+    display:flex;
+    align-items:center;
+    background-color:#eeeeee;
+    justify-content:space-between;
+    box-shadow:0px 2px 2px 2px rgb(204,203,203);
+    padding:10px;
+}
+.nav img
+{
+    margin-left:22px;
+    width:100px;
+    height:100px;
+}
+.sidenav
+{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: #111;
+    overflow-x:hidden;
+    transition:0.5s;
+    padding-top:60px;
+}
+.sidenav a{
+    padding:8px 8px 8px 32px;
+    text-decoration: none;
+    font-size:25px;
+    color:#818181;
+    display:block;
+    transition:0.3s;
+}
+.sidenav .closebtn{
+    position:absolute;
+    top:0;
+    right:25px;
+    font-size:36px;
+    margin-left:50px;
+}
+.sidenav a:hover{
+    color:#f1f1f1;
+}
+@media screen and (max-height:450px)
+{
+    .sidenav{padding-top:15px;}
+    .sidenav a{font-size:18px;}
+}
+input{
+    font-size:25px;
+}
+.slide{
+    display:flex;
+    justify-content: space-around;
+}
+.slide .slide1{
+    margin-top:144px;
+}
+.slide img{
+    width:30%;
+    height:10%;
+    margin-top:170px;
+}
+.main
+{
+    margin:50px;
+    padding-bottom:25px;
+}
+.head
+{
+    padding-top:10px;
+    line-height:25px;
+}
+.head1 h2
+{
+    padding-top:20px;
+    padding-bottom:15px;
+}
+.head1 p{
+    line-height:30px;
+}
+.section
+{
+    margin:50px;
+    padding-top:20px;
+    display:flex;
+    justify-content:center;
+    gap:10%;
+    font-size:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.section img{
+    width:200px;
+    height:120px;
+} 
+.part svg{
+    width:30px;
+    height:30px;
+    gap:20px;
+}
+.footer
+{
+   margin:10px;
+   justify-content:center;
+   display:flex;
+   gap:15%;
+}
+.footer ul
+{
+    display:flex;
+    gap:20px;
+    font-size:22px;
+}
+.search-bar
+{
+    max-width:100%;
+    margin-bottom:-30px;
+}
+.search-bar input{
+    width:100%;
+    padding:8px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    font-size:16px;
+}

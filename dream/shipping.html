@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shipping.css">
+    <script src="shipping.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <img src="data:image/png;base64,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" alt="">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+                <a href="home.html">Home</a>
+                <a href="collect.html">product</a>
+                <a href="abou.html">About</a>
+                <a href="contact.html">Contact</a>
+                <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;open</span>
+        </div>
+        <a href="signup.html"><i class="fas fa-sign-in"></i></a>
+        <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="search product">
+            </div>
+    </div>
+    <div class="slide">
+        <div class="slide1">
+            <h1>Shipping Policy</h1>
+            <p><a href="home.html">home / </a>Shipping Policy</p>
+        </div>   
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQz0X2G0IeAQMe6e6bHA2UN2_QlR8WcxRaBbFCaNfY2WI2shkGeVQiWLqq9dXtybzrvst5ztL8Hc8g8aRMVaFz8bPBEx33KNrOOBrhV5tJ_oTlyd6SdL-x1" alt=""> 
+    </div>
+    <div class="main">
+        <div class="head">
+            <h1>Shipping policy</h1><br>
+            <p>At The Dyem, we’re dedicated to giving our customers a fair, rewarding, and enjoyable shopping experience. Take a look at our store policies detailed below to learn more, and reach out today with any questions.</p>
+            <p>We know how important it is to receive your order on time, so we have the Best Courier Partners ( Professional Couriers & ST Courier) to deliver your product to you as soon as we can.</p>
+            <p>SO YOU’LL RECEIVE YOUR ORDERS WITHIN 20 – 25 Working Days Within Tamil Nadu and 25-30 Working Days for Other states in India</p>
+            <p>Unexpected events such as a good old-fashioned global pandemic, rioting, or mother nature going crazy might cause a delay in the service. On such occasions, you will be informed of any changes.</p>
+            <p>If you have any doubts regarding Delivery, feel free to reach us at +916381929020</p>        
+        </div>
+    </div><hr>
+    <div class="section">
+        <div class="part">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="part">
+            <h3>Quick Links</h3>
+            <ul>
+            <a href="home.html">Home</a><br>
+            <a href="collect.html">product</a><br>
+            <a href="about.html">About</a><br>
+            <a href="contact.html">Contact</a>
+            </ul>
+        </div>
+        <div class="part">
+            <h3>Contact</h3>
+            <p>Address:3f/2 arumugam street,<br>chennai, chennai-600 020</p>
+            <p>Phone:7010863322</p>
+            <p>Email:info@dream.com</p>
+        </div>
+        <div class="part">
+            <a href="privacy.html"><p>Privacy Policy</p></a>
+            <a href="refund.html"><p>Refund Policy</p></a>
+            <a href="shipping.html"><p>Shipping Policy</p></a>
+            <a href="term.html"><p>Terms Of Service</p></a>
+            <a href="contact.html"><p>Contact Us</p></a>
+            <a href="order.html"><p>order tracking</p></a>
+            <a href="payment.html"><p>payment options</p></a>
+            <a href="return.html"><p>Return & Exchanges</p></a>
+    </div>
+    </div><hr>
+    <div class="footer">
+        <div class="content">&#169 2025 All right reserved The dream.com</div>
+    </div><hr> 
+</body>
+</html>
