@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+<servlet>
+<servlet-name>exchange</servlet-name>
+<servlet-class>com.example.exchange</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>exchange</servlet-name>
+<url-pattern>exchange</url-pattern>
+</servlet-mapping>
+<welcom-file-list>
+<welcome-file>exchange.html</welcome-file>
+</welcom-file-list>
+</web-app>
