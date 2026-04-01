@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+<servlet>
+<servlet-name>forgot</servlet-name>
+<servlet-class>com.example.forgot</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>forgot</servlet-name>
+<url-pattern>forgot</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>reset</servlet-name>
+<servlet-class>com.example.reset</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>reset</servlet-name>
+<url-pattern>reset</url-pattern>
+</servlet-mapping>
+<welcom-file-list>
+<welcome-file>forgot.html</welcome-file>
+</welcom-file-list>
+</web-app>
