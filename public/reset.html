@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="forgot.css">
+<script src="reset.js"></script>
+</head>
+<body>
+    <div class="container">
+<form action="reset" method="get">
+<input type="hidden" name="token" id="token">
+<label>New Password:</label><br>
+<input type="password" name="newPassword" required><br><br>
+<button type="submit">Reset Password</button>
+</form>
+<p id="message"></p>
+</div>
+</body>
+</html>
