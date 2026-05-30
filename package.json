@@ -1,0 +1,22 @@
+{
+  "name": "dream",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "about.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+    "dev":"nodemon server.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "dream": "^0.0.2",
+    "express": "^5.2.1",
+    "stripe": "^20.4.1"
+  }
+}
